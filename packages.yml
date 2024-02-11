@@ -1,0 +1,3 @@
+packages:
+  - git: "https://github.com/flexor-ai/flexor-dbt.git"
+    revision: main 

@@ -1,0 +1,10 @@
+# you shouldn't commit these into source control
+# these are the default directory names, adjust/add to fit your needs
+target/
+dbt_packages/
+logs/
+.user.yml
+.env
+package-lock.yml
+.DS_Store
+profiles.yml

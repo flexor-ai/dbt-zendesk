@@ -1,0 +1,26 @@
+
+name: 'flexor_dbt_zendesk'
+version: '0.1.0'
+config-version: 2
+
+profile: 'default'
+
+model-paths: ["models"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+  - "logs"
+  - "package-lock.yml"
+
+models:
+  flexor_dbt_zendesk:
+    tickets_comments:
+      flex_transformations:
+        +materialized: incremental
+vars:
+  flexor:
+    flex_online_mode: false
+    flex_function_project: 'flexor-364115'
+    flex_function_dataset: 'demo_zendesk_2024_tables'

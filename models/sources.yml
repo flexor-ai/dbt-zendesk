@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: zendesk_ingested
+    database: flexordemo
+    schema: demo_zendesk_2024_tables
+    tables:
+      - name: "flexor_support_tickets"
