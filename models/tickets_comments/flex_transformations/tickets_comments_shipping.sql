@@ -1,1 +1,1 @@
-{{ flexor.flex(ref('tickets_comments'), 'Is the the user asking for a discount?') }}
+{{ flexor.flex(ref('tickets_comments'), 'Is the ticket about shipping options?') }}
